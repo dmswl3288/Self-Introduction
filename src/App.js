@@ -1,19 +1,36 @@
 import React, { Component } from 'react';
 import pcImage from './images/pcImage.jpg';
+import AOS from 'C:/Users/Administrator/react/hello-react/node_modules/aos';
+import 'aos/dist/aos.css';
 import './App.css';
+import Skill from "./Skill";
+import MyWork01 from "./MyWork01";
+import MyWork02 from "./MyWork02";
+import MyWork03 from "./MyWork03";
+import MyWork04 from "./MyWork04";
+import MyWork05 from "./MyWork05";
 
 class App extends Component {
+
+  componentDidMount(){
+    AOS.init();
+  }
+
   render() {
     return (
-      <div>
+      <div className="Total">
+        <head>
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+        </head>
         <div className="Title"> {/* App.css 스타일 참조*/}
             <div>EUNJI HAN</div>
         </div>
-        <div className="Body">
+        <body className="Body">
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
           <div className="Bodyed">
             <div style={{ flex: 1,backgroundImage: "url("+pcImage+")", backgroundSize: 'cover', width: window.width, height: window.outerHeight}}>
               <div className="BG"> 
-                <div className="MySelf">
+                <div  data-aos="zoom-in-down" data-aos-duration="2000" className="MySelf">
                     <div className="MyselfContent">
                         <div className="MyName">Eunji Han</div>
                         <div className="PhoneNumber">Phone Number</div>
@@ -25,13 +42,13 @@ class App extends Component {
                     </div>
                     <div style={{ alignItems: 'center', justifyContent: 'center'}}>
                       <div className="SNS">
-                         <div className="Welcome">Welcome!</div>
+                         <div  data-aos="zoom-in" data-aos-duration="2000" className="Welcome">About me</div>
                       </div>
                     </div>
                 </div>
               </div>
             </div>
-            <div className="Contents">덕성여자대학교 IT미디어공학과에 입학하여 컴퓨터와 디자인, 미디어 등
+            <div  data-aos="fade-up" data-aos-duration="3000" className="Contents">덕성여자대학교 IT미디어공학과에 입학하여 컴퓨터와 디자인, 미디어 등
             다양한 분야를 배웠습니다. 3학년이 되고 나서 전공과목으로 Android와 IoT 등을 배웠고 점점 개발에 
             재미를 느끼기 시작했습니다. 그때 이후로 열정이 생겨 오로지 하고 싶은 마음으로 게임, 환경, 실생활과 관련된 
             다양한 앱과 소프트웨어를 개발했습니다. 몇가지 만든 앱은 구글 플레이에 프로덕션 출시를 했고, 다른 사람들이
@@ -40,8 +57,18 @@ class App extends Component {
             프로그래밍을 배워야 하는 목적을 깨닫고 나서 개발할 수 있다는 것에 
             너무 감사했습니다. 또한, 저는 많은 사람들에게 즐거움을 주기 위해 개발하는 그 자체만으로도 행복합니다.
             그리고 제 열정은 현재진행중입니다.</div>
-
           </div>
+        </body>
+        <Skill/>
+        <MyWork01/>
+        <div style={{marginBottom: 200}}></div>
+        <MyWork02/>
+        <MyWork03/>
+        <MyWork04/>
+        <MyWork05/>
+        <div style={{ display: 'flex', marginTop: 250, height: 300, backgroundColor: '#2c1c3e',
+                      alignItems: 'center', justifyContent: 'center'}}>
+            <div style={{color: 'white'}}>Developer 한은지</div>
         </div>
       </div>
     );
