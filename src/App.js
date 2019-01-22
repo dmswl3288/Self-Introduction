@@ -32,15 +32,11 @@ class App extends Component {
               <div className="BG"> 
                 <div  data-aos="zoom-in-down" data-aos-duration="2000" className="MySelf">
                     <div className="MyselfContent">
-                        <div className="MyName">Eunji Han</div>
-                        <div className="PhoneNumber">Phone Number</div>
-                        <div className="Input">+82 10 2881 9649</div>
-                        <div className="PhoneNumber">Email</div>
-                        <div className="Input">dmswl3288@naver.com</div>
-                        <div className="PhoneNumber">Address</div>
-                        <div className="Input">36, Doyak-ro, Bucheon-si, Gyeonggi-do, Republic of Korea</div>
+                        <div style={{marginTop: 150, marginBottom: 10, color: '#292929', fontSize: 50, fontWeight: 800}} className="MyName">Software</div>
+                        <div style={{color: '#292929', fontSize: 60, fontWeight: 800}}>&amp;</div>
+                        <div style={{marginTop: 10, marginBottom: 80, color: '#292929', fontSize: 50, fontWeight: 800}} className="MyName">Development</div>
                     </div>
-                    <div style={{ alignItems: 'center', justifyContent: 'center'}}>
+                    <div>
                       <div className="SNS">
                          <div  data-aos="zoom-in" data-aos-duration="2000" className="Welcome">About me</div>
                       </div>
@@ -66,9 +62,16 @@ class App extends Component {
         <MyWork03/>
         <MyWork04/>
         <MyWork05/>
-        <div style={{ display: 'flex', marginTop: 250, height: 300, backgroundColor: '#2c1c3e',
-                      alignItems: 'center', justifyContent: 'center'}}>
-            <div style={{color: 'white'}}>Developer 한은지</div>
+        <div style={{ display: 'flex', marginTop: 250, height: 400, backgroundColor: '#2c1c3e'}}>
+          <div style={{display: 'flex', flexDirection: "column", paddingLeft: 50, justifyContent: 'center'}}>
+            <div style={{color: 'yellow', fontSize: 25, marginBottom: 40, fontWeight: 700}}>CONTACT</div>
+            <div className="PhoneNumber">Phone Number</div>
+            <div className="Input">+82 10 2881 9649</div>
+            <div className="PhoneNumber">Email</div>
+            <div className="Input">dmswl3288@naver.com</div>
+            <div className="PhoneNumber">Address</div>
+            <div className="Input">36, Doyak-ro, Bucheon-si, Gyeonggi-do, Republic of Korea</div>
+          </div>
         </div>
       </div>
     );

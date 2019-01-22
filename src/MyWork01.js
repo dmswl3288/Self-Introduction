@@ -27,12 +27,13 @@ class MyWork01 extends Component {
 
                 <div className="MyWorksContent">
                     <div className="Capture">
-                        <div style={{ flex: 1, backgroundImage: "url("+airLevel+")", backgroundSize: 'cover', width: window.Width, height: window.outerHeight}}></div>
+                        <div style={{ flex: 1, backgroundImage: "url("+airLevel+")", backgroundSize: 'cover', width: 800, height: 600}}></div>
                     </div>
                     <div className="Info">
-                        <div style={{paddingTop: 20, paddingLeft: 20, paddingRight: 60}}>
+                        <div style={{paddingTop: 20, paddingLeft: 20, paddingRight: 80}}>
                             <div className="Number">01</div>
                             <div data-aos="fade-up" data-aos-duration="2000" className="Airlevel">AirLevel 에어레벨</div>
+                            <div style={{fontSize: 15, fontWeight: 600}}>1인 개발</div>
                             <div>한국환경공단에서 제공하는 기본적인 미세먼지 수치를 매시간마다 확인 할 수 있으며,
                                 그에 따른 (좋음/보통/나쁨/매우나쁨)단계를 나누어 위험도를 쉽게 알 수 있는 앱입니다.
                                 <br/><br/><br/>

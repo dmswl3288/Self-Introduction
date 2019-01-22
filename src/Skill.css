@@ -39,7 +39,7 @@
 .What {
     color: white;
     padding-left: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 70px;
     font-size: 60px;
     font-weight: 600;
 }
@@ -54,11 +54,12 @@
 }
 
 .language {
-    color: white;
+    color: rgb(255, 255, 255);
     padding-left: 50px;
-    padding-bottom: 20px;
-    font-size: 20px;
-    font-weight: 500;
+    padding-bottom: 2px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .language2 {
@@ -71,9 +72,9 @@
 }
 
 .AwardsTitle {
-    color: white;
+    color: rgb(255, 208, 0);
     padding-left: 50px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     font-size: 20px;
     font-weight: 700;
 }

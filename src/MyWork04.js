@@ -22,7 +22,7 @@ class MyWork04 extends Component {
 
                 <div className="MyWorksContent">
                     <div className="Info">
-                        <div style={{paddingTop: 20, paddingLeft: 60, paddingRight: 20}}>
+                        <div style={{paddingTop: 20, paddingLeft: 80, paddingRight: 40}}>
                             <div className="Number">04</div>
                             <div data-aos="fade-up" data-aos-duration="2000" className="Airlevel">슈팅스타</div>
                             <div>슈팅스타는 기존 FPS 게임에 증강현실(AR)기술을 더한 모바일 대전게임입니다.
@@ -40,8 +40,8 @@ class MyWork04 extends Component {
                             <div style={{paddingLeft: 20}}>- Photon Cloud</div>
                         </div>
                     </div>
-                    <div className="Capture">
-                        <div style={{ flex: 1, backgroundImage: "url("+shoot+")", backgroundSize: 'cover', width: window.Width, height: window.outerHeight}}></div>
+                    <div className="Capture2">
+                        <div style={{ flex: 1, backgroundImage: "url("+shoot+")", backgroundSize: 'cover', width: 800, height: 600}}></div>
                     </div>
                     
                 </div>
