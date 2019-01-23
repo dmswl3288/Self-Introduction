@@ -1,7 +1,7 @@
 .SkillTable {
     display: flex;
     background: rgba(0, 0, 0, 0.897);
-    height: 65em;
+    height: 100%;
     flex-direction: row;
 }
 
@@ -9,19 +9,19 @@
     justify-content: center;
     background: rgba(0, 0, 0, 0.897);
     width: 50%;
-    height: 65em;
+    height: 70em;
 }
 
 .Box02 {
     background: brown;
     width: 50%;
-    height: 65em;
+    height: 70em;
 }
 
 .TitleSkill {
     padding-top: 50px;
-    padding-left: 50px;
-    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-bottom: 5%;
     background-color: black;
     color: white;
     font-size: 30px;
@@ -29,8 +29,8 @@
 
 .TitleSkill2 {
     padding-top: 50px;
-    padding-left: 50px;
-    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-bottom: 5%;
     background-color: brown;
     color: white;
     font-size: 30px;
@@ -38,8 +38,8 @@
 
 .What {
     color: white;
-    padding-left: 50px;
-    padding-bottom: 70px;
+    padding-left: 10%;
+    padding-bottom: 20%;
     font-size: 60px;
     font-weight: 600;
 }
@@ -47,24 +47,112 @@
 .Awards {
     color: white;
     margin-top: 15px;
-    padding-left: 50px;
-    padding-bottom: 80px;
+    padding-left: 10%;
+    padding-bottom: 20%;
     font-size: 50px;
     font-weight: 600;
 }
 
+.langLayout {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .language {
     color: rgb(255, 255, 255);
-    padding-left: 50px;
     padding-bottom: 2px;
     margin-top: 10px;
     font-size: 15px;
     font-weight: 400;
 }
 
+.UsageRate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.C {
+    width: 80%; 
+    height: 10px; 
+    background-color: #006666; 
+    border-radius: 10px;
+}
+.Java {
+    width: 70%; 
+    height: 10px; 
+    background-color: #006666; 
+    border-radius: 10px;
+}
+.CSharp {
+    width: 80%; 
+    height: 10px; 
+    background-color: #006666; 
+    border-radius: 10px;
+}
+.JavaScript {
+    width: 70%; 
+    height: 10px; 
+    background-color: #006666; 
+    border-radius: 10px;
+}
+.PHP {
+    width: 50%; 
+    height: 10px; 
+    background-color: #006666; 
+    border-radius: 10px;
+}
+.MySQL {
+    width: 70%; 
+    height: 10px; 
+    background-color: #006666; 
+    border-radius: 10px;
+}
+.Python {
+    width: 40%; 
+    height: 10px; 
+    background-color: #006666; 
+    border-radius: 10px;
+}
+.Html {
+    width: 60%; 
+    height: 10px; 
+    background-color: #006666; 
+    border-radius: 10px;
+}
+.ReactN {
+    width: 70%; 
+    height: 10px; 
+    background-color: #006666; 
+    border-radius: 10px;
+}
+.Nodejs {
+    width: 50%; 
+    height: 10px; 
+    background-color: #006666; 
+    border-radius: 10px;
+}
+.Unity3D {
+    width: 80%; 
+    height: 10px; 
+    background-color: #006666; 
+    border-radius: 10px;
+}
+.Photoshop {
+    width: 80%; 
+    height: 10px; 
+    background-color: #006666; 
+    border-radius: 10px;
+}
+.Max {
+    width: 70%; 
+    height: 10px; 
+    background-color: #006666; 
+    border-radius: 10px;
+}
+
 .language2 {
     color: white;
-    padding-left: 50px;
     padding-top: 5px;
     padding-bottom: 20px;
     font-size: 20px;
@@ -73,7 +161,6 @@
 
 .AwardsTitle {
     color: rgb(255, 208, 0);
-    padding-left: 50px;
     padding-bottom: 10px;
     font-size: 20px;
     font-weight: 700;
@@ -81,9 +168,33 @@
 
 .AwardsInfo {
     color: white;
-    padding-left: 60px;
-    padding-bottom: 10px;
-    padding-right: 62px;
+    padding-bottom: 5%;
+    padding-right: 1%;
     font-size: 15px;
     font-weight: 500;
+}
+
+@media screen and (min-width: 320px) and (max-width: 667px) {
+    .SkillTable {
+        flex-direction: column;
+    }
+    .Box01 {
+        width: 100%;
+        height: 60em;
+        padding-bottom: 25px;
+    }
+    .TitleSkill {
+        font-size: 30px;
+    }
+    .What {
+        font-size: 40px;
+    }
+    .Box02 {
+        width: 100%;
+        height: 60em;
+    }
+    .Awards {
+        font-size: 40px;
+    }
+
 }

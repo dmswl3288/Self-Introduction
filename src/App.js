@@ -22,28 +22,28 @@ class App extends Component {
         <head>
         <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
         </head>
-        <div className="Title"> {/* App.css 스타일 참조*/}
+        <div className="Title">
             <div>EUNJI HAN</div>
         </div>
         <body className="Body">
         <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
           <div className="Bodyed">
-            <div style={{ flex: 1,backgroundImage: "url("+pcImage+")", backgroundSize: 'cover', width: window.width, height: window.outerHeight}}>
+            <div className="PcImg">
               <div className="BG"> 
-                <div  data-aos="zoom-in-down" data-aos-duration="2000" className="MySelf">
-                    <div className="MyselfContent">
-                        <div style={{marginTop: 150, marginBottom: 10, color: '#292929', fontSize: 50, fontWeight: 800}} className="MyName">Software</div>
-                        <div style={{color: '#292929', fontSize: 60, fontWeight: 800}}>&amp;</div>
-                        <div style={{marginTop: 10, marginBottom: 80, color: '#292929', fontSize: 50, fontWeight: 800}} className="MyName">Development</div>
+                  <div  data-aos="zoom-in-down" data-aos-duration="2000" className="MySelf">
+                    <div>
+                        <div className="Software">Software</div>
+                        <div style={{textAlign: 'center', color: '#292929', fontSize: 60, fontWeight: 800}}>&amp;</div>
+                        <div className="MyName">Development</div>
                     </div>
                     <div>
-                      <div className="SNS">
-                         <div  data-aos="zoom-in" data-aos-duration="2000" className="Welcome">About me</div>
-                      </div>
+                        <div className="SNS">
+                          <div  data-aos="zoom-in" data-aos-duration="2000" className="Welcome">About me</div>
+                        </div>
                     </div>
                 </div>
               </div>
-            </div>
+           </div>
             <div  data-aos="fade-up" data-aos-duration="3000" className="Contents">덕성여자대학교 IT미디어공학과에 입학하여 컴퓨터와 디자인, 미디어 등
             다양한 분야를 배웠습니다. 3학년이 되고 나서 전공과목으로 Android와 IoT 등을 배웠고 점점 개발에 
             재미를 느끼기 시작했습니다. 그때 이후로 열정이 생겨 오로지 하고 싶은 마음으로 게임, 환경, 실생활과 관련된 
@@ -57,7 +57,6 @@ class App extends Component {
         </body>
         <Skill/>
         <MyWork01/>
-        <div style={{marginBottom: 200}}></div>
         <MyWork02/>
         <MyWork03/>
         <MyWork04/>

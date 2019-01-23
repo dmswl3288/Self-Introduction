@@ -27,10 +27,10 @@ class MyWork01 extends Component {
 
                 <div className="MyWorksContent">
                     <div className="Capture">
-                        <div style={{ flex: 1, backgroundImage: "url("+airLevel+")", backgroundSize: 'cover', width: 800, height: 600}}></div>
+                    <img src={airLevel} className="ImageSize"></img>
                     </div>
                     <div className="Info">
-                        <div style={{paddingTop: 20, paddingLeft: 20, paddingRight: 80}}>
+                        <div className="InfoLayout">
                             <div className="Number">01</div>
                             <div data-aos="fade-up" data-aos-duration="2000" className="Airlevel">AirLevel 에어레벨</div>
                             <div style={{fontSize: 15, fontWeight: 600}}>1인 개발</div>

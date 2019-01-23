@@ -22,7 +22,7 @@ class MyWork02 extends Component {
 
                 <div className="MyWorksContent">
                     <div className="Info">
-                        <div style={{paddingTop: 20, paddingLeft: 80, paddingRight: 40}}>
+                        <div className="InfoLayout2">
                             <div className="Number">02</div>
                             <div data-aos="fade-up" data-aos-duration="2000" className="Airlevel">Tube Downloader</div>
                             <div style={{fontSize: 15, fontWeight: 600}}>1인 개발</div>
@@ -50,7 +50,7 @@ class MyWork02 extends Component {
                         </div>
                     </div>
                     <div className="Capture2">
-                        <div style={{ flex: 1, backgroundImage: "url("+tubeDown+")", backgroundSize: 'cover', width: 800, height: 600}}></div>
+                        <img src={tubeDown} className="ImageSize"></img>
                     </div>
                     
                 </div>
