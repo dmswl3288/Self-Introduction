@@ -93,7 +93,7 @@ class Skill extends Component {
                     </div>
 
                     <div className="Box02">
-                        <div data-aos="zoom-in-left" data-aos-duration="3000">
+                        <div data-aos="fade-right" data-aos-duration="2000">
                             <div className="TitleSkill2">Activity</div>
                             <div className="Awards">Certifications and Awards</div>
                                 <div className="langLayout">

@@ -2,6 +2,7 @@
     display: flex;
     background: rgba(0, 0, 0, 0.897);
     height: 100%;
+    width: 100%;
     flex-direction: row;
 }
 
