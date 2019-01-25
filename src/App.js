@@ -62,7 +62,7 @@ class App extends Component {
         <MyWork04/>
         <MyWork05/>
         <div style={{ display: 'flex', marginTop: 250, height: 400, backgroundColor: '#2c1c3e'}}>
-          <div style={{display: 'flex', flexDirection: "column", paddingLeft: 50, justifyContent: 'center'}}>
+          <div className="ContactLayout">
             <div style={{color: 'yellow', fontSize: 25, marginBottom: 40, fontWeight: 700}}>CONTACT</div>
             <div className="PhoneNumber">Phone Number</div>
             <div className="Input">+82 10 2881 9649</div>

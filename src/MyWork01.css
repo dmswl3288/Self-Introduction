@@ -90,9 +90,10 @@
 }
 
 .ImageSize {
-    width: 800px;
-    height: 600px;
+    width: 65vw;
+    height: 100vh;
 }
+
 
 @media screen and (min-width: 320px) and (max-width: 667px) {
     .Entire {

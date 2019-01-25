@@ -40,6 +40,7 @@
 .What {
     color: white;
     padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 20%;
     font-size: 60px;
     font-weight: 600;
@@ -49,6 +50,7 @@
     color: white;
     margin-top: 15px;
     padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 20%;
     font-size: 50px;
     font-weight: 600;

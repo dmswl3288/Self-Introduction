@@ -24,12 +24,12 @@
   flex-direction: column;
   align-items: center;
   background: #492b56;
-  min-height: 80em;
+  height: 80em;
 }
 
 .Bodyed {
-  height: 100vh;
-  background: #2c1c3e;
+  height: 90%;
+  background: #492b56;
   align-self: center;
   align-items: center;
   justify-content: center;
@@ -123,7 +123,14 @@
   padding-right: 250px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 667px) {
+.ContactLayout {
+  display: flex;
+  flex-direction: column; 
+  padding-left: 2%; 
+  justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 920px) {
   .Title {
     justify-content: center;
   }
