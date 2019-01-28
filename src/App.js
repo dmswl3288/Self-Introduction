@@ -44,15 +44,21 @@ class App extends Component {
                 </div>
               </div>
            </div>
-            <div  data-aos="fade-up" data-aos-duration="3000" className="Contents">덕성여자대학교 IT미디어공학과에 입학하여 컴퓨터와 디자인, 미디어 등
-            다양한 분야를 배웠습니다. 3학년이 되고 나서 전공과목으로 Android와 IoT 등을 배웠고 점점 개발에 
-            재미를 느끼기 시작했습니다. 그때 이후로 열정이 생겨 오로지 하고 싶은 마음으로 게임, 환경, 실생활과 관련된 
-            다양한 앱과 소프트웨어를 개발했습니다. 몇가지 만든 앱은 구글 플레이에 프로덕션 출시를 했고, 다른 사람들이
-            제가 만든 앱을 공유하고 즐기는 것에 너무 가슴이 뛰었습니다. 
-            <div style={{marginTop: 40}}></div>
-            프로그래밍을 배워야 하는 목적을 깨닫고 나서 개발할 수 있다는 것에 
-            너무 감사했습니다. 또한, 저는 많은 사람들에게 즐거움을 주기 위해 개발하는 그 자체만으로도 행복합니다.
-            그리고 제 열정은 현재진행중입니다.</div>
+            <div  data-aos="fade-up" data-aos-duration="3000" className="Contents">
+            안녕하세요. 저는 IT미디어공학을 전공으로 컴퓨터와 디자인, 미디어 등의 다양한 분야를 배워 온 한은지입니다. 
+            C/C++ Programming을 시작으로 JAVA, C#, JavaScript, Python, Html 등의 언어와 자료구조, 컴퓨터 통신, 운영체제 등의 컴퓨터 과학을 배웠습니다. 
+            <div style={{marginTop: 20}}></div>
+            Android, IoT, Unity3D, 3D max, openGL, Photoshop, After Effect, Illustrator 등의 다양한 프로그램과 
+            기술을 통해 디자인, 그래픽, 게임, Application 개발을 공부했습니다. 이것들을 기반으로 여러 소프트웨어를 
+            개발하였고 점점 개발의 재미를 느끼기 시작했습니다.
+            <div style={{marginTop: 20}}></div>
+            휴학 기간 중 게임, 환경, 실생활, 미디어 등과 관련된 다양한 앱을 개발하였고 몇 가지 완성된 앱은 Google Play와 
+            One Store에 출시를 했습니다. 저는 이 경험을 통해 다른 사람들이 제가 개발한 앱을 공유하고 즐기는 모습을 볼 수 있었고 스스로 열정을 느꼈습니다.
+            <div style={{marginTop: 20}}></div>
+            단 하나의 컴퓨터만으로도 수많은 사람들에게 행복과 편리함을 줄 수 있는 직업은 개발자가 유일하다고 생각합니다. 
+            저는 프로그래밍을 배워야 하는 목적을 깨닫고 나서 개발할 수 있다는 것에 감사했습니다. 
+            받는 것보다 누군가에게 주는 것을 좋아하는 저는 많은 사람들에게 즐거움을 주기 위해 개발하는 일 자체만으로도 행복합니다.
+            </div>
           </div>
         </body>
         <Skill/>

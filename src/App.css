@@ -24,7 +24,7 @@
   flex-direction: column;
   align-items: center;
   background: #492b56;
-  height: 80em;
+  height: 90em;
 }
 
 .Bodyed {
@@ -128,6 +128,12 @@
   flex-direction: column; 
   padding-left: 2%; 
   justify-content: center;
+}
+
+@media screen and (min-width: 921px) and (max-width: 1010px) {
+  .Body {
+    height: 95em;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 920px) {
